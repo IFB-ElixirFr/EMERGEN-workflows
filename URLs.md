@@ -1,9 +1,24 @@
 # URLs
 
-### GitHub [galaxyproject/SARS-CoV-2](https://github.com/galaxyproject/SARS-CoV-2)
-The goal of this resource is to provide publicly accessible infrastructure and workflows
-for SARS-CoV-2 data analyses. They currently feature three different types of analyses: Genomics, Cheminformatics, and Proteomics.
-### [Intrahost allelic variant SARS-CoV-2 analysis for GOG-UK samples](https://observablehq.com/@spond/sars-cov-2-cog-uk)
-Results computed using the [Observable](https://observablehq.com/) platform and the
-[global platform for SARS-CoV-2 analysis](https://covid19.galaxyproject.org/genomics/global_platform/)
+### [Global platform for SARS-CoV-2 analysis][1]
+This is a collection of Galaxy workflows for the detection and interpretation of sequence
+variants in SARS-CoV-2. It is free and can be immediately accessed from the [three][6] global
+Galaxy instances. Each is capable of supporting thousands of users running hundreds of
+thousands of analyses per month. **Anyone** can create an account and obtain immediate access
+to _as much computation as one might reasonably need_ (with a limit on the number of
+concurrent analyses) and 250 Gb of disk space, which can be increased based on the needs
+of an individual user.
 
+### • GitHub [galaxyproject/SARS-CoV-2][2]
+The goal of this resource is to provide publicly accessible infrastructure and workflows
+for SARS-CoV-2 data analyses. They currently feature three different types of analyses: Genomics,
+Cheminformatics, and Proteomics.
+### • [Intrahost allelic variant SARS-CoV-2 analysis for GOG-UK samples][4]
+Results computed using the [Observable][3] platform and the [global platform for SARS-CoV-2 analysis][5]
+
+[1]: https://covid19.galaxyproject.org/genomics/global_platform/#global-platform-for-sars-cov-2-analysis
+[2]: https://github.com/galaxyproject/SARS-CoV-2
+[3]: https://observablehq.com/
+[4]: https://observablehq.com/@spond/sars-cov-2-cog-uk
+[5]: https://covid19.galaxyproject.org/genomics/global_platform/
+[6]: https://covid19.galaxyproject.org/genomics/global_platform/#run-workflows
