@@ -19,6 +19,13 @@ Results computed using the [Observable][3] platform and the [global platform for
 ### • [covid19.usegalaxy.eu][7]
 A subdomain of [usegalaxy.eu][8] devoted to research on coronavirus disease 2019 (COVID-19)
 
+### • [Bots for SARS-CoV-2 genome surveillance using Galaxy][9]
+Solutions for
+- an automated way to upload newly available data into Galaxy and arrange it into collections
+- trigger execution of your variation analysis workflow, and proceed with downstream workflows
+for consensus building and reporting as soon as the variation workflow finishes
+- arrange the workflow results into batch-specific histories
+
 [1]: https://covid19.galaxyproject.org/genomics/global_platform/#global-platform-for-sars-cov-2-analysis
 [2]: https://github.com/galaxyproject/SARS-CoV-2
 [3]: https://observablehq.com/
@@ -27,3 +34,4 @@ A subdomain of [usegalaxy.eu][8] devoted to research on coronavirus disease 2019
 [6]: https://covid19.galaxyproject.org/genomics/global_platform/#run-workflows
 [7]: https://covid19.usegalaxy.eu/
 [8]: https://usegalaxy.eu/
+[9]: https://github.com/usegalaxy-eu/ena-cog-uk-wfs
