@@ -19,6 +19,8 @@ Results computed using the [Observable][3] platform and the [global platform for
 ### • [covid19.usegalaxy.eu][7]
 A subdomain of [usegalaxy.eu][8] devoted to research on coronavirus disease 2019 (COVID-19)
 
+### • [COVID-19 GENOMICS UK CONSORTIUM (COG-UK)][9]
+
 [1]: https://covid19.galaxyproject.org/genomics/global_platform/#global-platform-for-sars-cov-2-analysis
 [2]: https://github.com/galaxyproject/SARS-CoV-2
 [3]: https://observablehq.com/
@@ -27,3 +29,4 @@ A subdomain of [usegalaxy.eu][8] devoted to research on coronavirus disease 2019
 [6]: https://covid19.galaxyproject.org/genomics/global_platform/#run-workflows
 [7]: https://covid19.usegalaxy.eu/
 [8]: https://usegalaxy.eu/
+[9]: https://www.cogconsortium.uk/
