@@ -26,6 +26,11 @@ Solutions for
 for consensus building and reporting as soon as the variation workflow finishes
 - arrange the workflow results into batch-specific histories
 
+### • [COVID-19 GENOMICS UK CONSORTIUM (COG-UK)][10]
+
+### • [Metagen-FastQC][11]
+A tool that cleans metagenomic reads to remove adapters, low-quality bases and host (e.g. **HUMAN**) contamination
+
 [1]: https://covid19.galaxyproject.org/genomics/global_platform/#global-platform-for-sars-cov-2-analysis
 [2]: https://github.com/galaxyproject/SARS-CoV-2
 [3]: https://observablehq.com/
@@ -35,3 +40,6 @@ for consensus building and reporting as soon as the variation workflow finishes
 [7]: https://covid19.usegalaxy.eu/
 [8]: https://usegalaxy.eu/
 [9]: https://github.com/usegalaxy-eu/ena-cog-uk-wfs
+[10]: https://www.cogconsortium.uk/
+[11]: https://github.com/Finn-Lab/Metagen-FastQC
+

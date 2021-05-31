@@ -9,3 +9,5 @@ Même si vous en avez la possibilité, ne créez pas de commit dans la branch **
 
 2. faites une **`Pull Request`** pour demander à ce que cette branche soit "fusionnée" à la branche **`main`**
 
+# Discussions et groupe:
+Please visit [this link](https://github.com/orgs/IFB-ElixirFr/teams/covid19-taskforce/discussions)
