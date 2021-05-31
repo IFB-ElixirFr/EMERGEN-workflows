@@ -1,4 +1,4 @@
-## genome amplification using ARTIC amplicons 
+## Genome amplification using ARTIC amplicons 
 
 #### The full document can be read in [this repository][1]
 
