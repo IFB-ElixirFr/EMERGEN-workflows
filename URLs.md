@@ -19,9 +19,16 @@ Results computed using the [Observable][3] platform and the [global platform for
 ### • [covid19.usegalaxy.eu][7]
 A subdomain of [usegalaxy.eu][8] devoted to research on coronavirus disease 2019 (COVID-19)
 
-### • [COVID-19 GENOMICS UK CONSORTIUM (COG-UK)][9]
+### • [Bots for SARS-CoV-2 genome surveillance using Galaxy][9]
+Solutions for
+- an automated way to upload newly available data into Galaxy and arrange it into collections
+- trigger execution of your variation analysis workflow, and proceed with downstream workflows
+for consensus building and reporting as soon as the variation workflow finishes
+- arrange the workflow results into batch-specific histories
 
-### • [Metagen-FastQC][10]
+### • [COVID-19 GENOMICS UK CONSORTIUM (COG-UK)][10]
+
+### • [Metagen-FastQC][11]
 A tool that cleans metagenomic reads to remove adapters, low-quality bases and host (e.g. **HUMAN**) contamination
 
 [1]: https://covid19.galaxyproject.org/genomics/global_platform/#global-platform-for-sars-cov-2-analysis
@@ -32,6 +39,7 @@ A tool that cleans metagenomic reads to remove adapters, low-quality bases and h
 [6]: https://covid19.galaxyproject.org/genomics/global_platform/#run-workflows
 [7]: https://covid19.usegalaxy.eu/
 [8]: https://usegalaxy.eu/
-[9]: https://www.cogconsortium.uk/
-[10]: https://github.com/Finn-Lab/Metagen-FastQC
+[9]: https://github.com/usegalaxy-eu/ena-cog-uk-wfs
+[10]: https://www.cogconsortium.uk/
+[11]: https://github.com/Finn-Lab/Metagen-FastQC
 
