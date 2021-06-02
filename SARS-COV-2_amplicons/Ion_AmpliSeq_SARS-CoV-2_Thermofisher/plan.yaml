@@ -1,0 +1,77 @@
+---
+pipeline_version:
+design_name: SARS-CoV-2
+number_of_amplicon_pools: 2
+request_id_and_solution_ordering_id: SARS_CoV_2
+order_number: 0
+fusion_design_name:
+description: "<table class=\"design-template-info-wrapper-table\">\r\n    <tr>\r\n
+  \       <td colspan=\"3\">\r\n            <br/>\r\n            <p>Coronaviruses
+  have been implicated in severe acute respiratory syndromes.  The Ion AmpliSeq™ SARS-CoV-2
+  Research Panel is a quick, accurate and cost-effective tool to detect SARS-CoV-2
+  Virus responsible for Coronavirus disease 2019 (COVID-19).  The panel contains 2
+  pools, containing a total of 247 amplicons (242 unique ones) to detect 237 viral
+  specific SARS-CoV-2 targets and 5 human gene expression controls to assess presence
+  of the virus in a variety of sample types (isolates, throat and nasal swabs) and
+  will cover all potential serotypes to help better understand epidemiology outbreaks.
+  To access the Quick Reference Guides for this panel follow the appropriate links
+  for each instrument: 1)<a href=\"https://assets.thermofisher.com/TFS-Assets/LSG/manuals/MAN0019277_Ion_AmpliSeq_SARS-CoV-2_Research_Panel_GeneStudio_QR.pdf\"><u>
+  Ion GeneStudio S5 Series Systems</u></a>, and 2)  <a href=\"https://assets.thermofisher.com/TFS-Assets/LSG/manuals/MAN0019278_Ion_AmpliSeq_SARS-CoV-2_Research_Panel_Genexus_QR.pdf\"><u>Ion
+  Torrent Genexus System</u></a>.</p>\r\n<p> (Note: The instrument selection during
+  ordering will be updated by September 17, 2020 to include the Genexus System. In
+  the meantime, you may order the panel using the GeneStudio instrument option, even
+  if the intent is to use it on the Genexus System.) \r\n</p>\r\n        </td>\r\n
+  \   </tr>\r\n    <tr class=\"design-template-statistics\">\r\n        <td>\r\n         <strong>Design
+  Date</strong>\r\n           Feb 2020\r\n        </td>\r\n        <td colspan= \"2\">\r\n
+  \  <b>\r\n        </td>\r\n    </tr>\r\n    <tr class=\"design-template-statistics\">\r\n
+  \       <td>\r\n            <strong>Recommended Application</strong>\r\n            Detection
+  and epidemiology of Severe Acute respiratory Syndromes. \r\n        </td>\r\n        <td>\r\n
+  \        <strong>Recommended Configuration</strong>\r\nSample per Chip:  2-3 on
+  510 Chip, 4-6 on 520 Chip, 15-20 on 530 Chip, 60-80 on 540 Chip </br>\r\nReads/sample:
+  1 Million\r\n\r\n        <td>\r\n            <strong>Sample Type</strong>\r\n           Viral/human
+  mixture of cDNA\r\n        </td>\r\n    </tr>\r\n    <tr class=\"design-template-statistics\">\r\n
+  \       <td>\r\n            <strong>Number of sample in publication</strong>\r\n
+  \     <b>N/A\r\n        </td>\r\n        <td>\r\n            <strong>Observed Performance</strong>\r\n
+  \     Panel uniformity: >90%</br>\r\nReads on-targets: >99%</br>\r\n        </td>\r\n
+  \       <td>\r\n            <strong>Input RNA required </strong>\r\n5-10ng cDNA
+  per sample\r\n        </td>\r\n    </tr>\r\n    <tr>\r\n        <td colspan=\"3\">\r\n
+  \           <b>Disease Research Area</b>: Infectious Disease \r\n        </td>\r\n
+  \   </tr>\r\n</table>"
+amplicons_coverage_summary: 100
+type: COMMUNITY_PANEL
+results_uri: "/ws/tmpldesign/126664577/download/results"
+pipeline: RNA
+target_size:
+genome: ion_ampliseq_sars-cov2
+min_number_amplicons_per_pool: 122
+number_of_amplicons: 247
+solution_name:
+genome_reference:
+  _comment: Genome Reference information for import into Torrent Server 4.4+
+  files_md5sum:
+    fasta: 067b5ac968b903bdef7e5ebfe4b77fc2
+  name: Ion Ampliseq SARS-CoV-2 Reference
+  short_name: ion_ampliseq_sars-cov2
+  uri: http://ionupdates.com/reference_downloads/ion_ampliseq_sars-cov2.zip
+design_id: SARS_CoV_2
+fusion_type:
+id: 126664577
+created_date: '2020-03-26T14:30:59.879+0000'
+plan:
+  '3.6':
+    inputDna: 10 ng
+    designed_bed: Ion_AmpliSeq_SARS-CoV-2.2020323_Designed.bed
+    runType: AMPS_DNA
+    fusion_designed_bed:
+    coverage_detail:
+    hotspot_bed:
+    missed_bed:
+    submitted_bed:
+    coverage_summary:
+    primer_sequences:
+    variant_caller:
+    target_mutations:
+    well_plate_data: Ion_AmpliSeq_SARS-CoV-2.2020323_DataSheet.csv
+    displayedPanelSize:
+    primer_bed: Ion_AmpliSeq_SARS-CoV-2.2020323_Primer.bed
+status: ORDERABLE
