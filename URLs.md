@@ -29,7 +29,11 @@ for consensus building and reporting as soon as the variation workflow finishes
 ### • [COVID-19 GENOMICS UK CONSORTIUM (COG-UK)][10]
 
 ### • [Metagen-FastQC][11]
-A tool that cleans metagenomic reads to remove adapters, low-quality bases and host (e.g. **HUMAN**) contamination
+A tool that cleans metagenomic reads to remove adapters, low-quality bases and host
+(e.g. **HUMAN**) contamination
+
+### • [ARTIC-ncov2019][12]
+GitHub repository with information on the three versions of ARTIC primer kits
 
 [1]: https://covid19.galaxyproject.org/genomics/global_platform/#global-platform-for-sars-cov-2-analysis
 [2]: https://github.com/galaxyproject/SARS-CoV-2
@@ -42,4 +46,4 @@ A tool that cleans metagenomic reads to remove adapters, low-quality bases and h
 [9]: https://github.com/usegalaxy-eu/ena-cog-uk-wfs
 [10]: https://www.cogconsortium.uk/
 [11]: https://github.com/Finn-Lab/Metagen-FastQC
-
+[12]: https://github.com/artic-network/artic-ncov2019
