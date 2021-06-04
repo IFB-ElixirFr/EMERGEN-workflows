@@ -1,0 +1,315 @@
+{
+  "@context": "https://w3id.org/ro/crate/1.0/context",
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.jsonld",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "ro-crate-preview.html",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "mainEntity": {
+        "@id": "Genomics-4-PE_Variation.ga"
+      },
+      "hasPart": [
+        {
+          "@id": "Genomics-4-PE_Variation.cwl"
+        },
+        {
+          "@id": "Genomics-4-PE_Variation.ga"
+        },
+        {
+          "@id": "Genomics-4-PE_Variation.svg"
+        }
+      ],
+      "identifier": "https://workflowhub.eu/workflows/7?version=1",
+      "url": "https://workflowhub.eu/workflows/7/ro_crate?version=1",
+      "name": "Research Object Crate for Genomics - PE Variation",
+      "description": "Analysis of variation within individual COVID-19 samples using Illumina Paired End data. More info can be found at https://covid19.galaxyproject.org/genomics/",
+      "sdDatePublished": "2021-06-04 11:34:16 +0100"
+    },
+    {
+      "@id": "Genomics-4-PE_Variation.cwl",
+      "@type": [
+        "File",
+        "SoftwareSourceCode",
+        "Workflow"
+      ],
+      "programmingLanguage": {
+        "@id": "#cwl"
+      }
+    },
+    {
+      "@id": "Genomics-4-PE_Variation.ga",
+      "@type": [
+        "File",
+        "SoftwareSourceCode",
+        "Workflow"
+      ],
+      "programmingLanguage": {
+        "@id": "#galaxy"
+      },
+      "image": {
+        "@id": "Genomics-4-PE_Variation.svg"
+      },
+      "subjectOf": {
+        "@id": "Genomics-4-PE_Variation.cwl"
+      },
+      "contentSize": 12061,
+      "description": "Analysis of variation within individual COVID-19 samples using Illumina Paired End data. More info can be found at https://covid19.galaxyproject.org/genomics/",
+      "name": "Genomics - PE Variation",
+      "url": "https://workflowhub.eu/workflows/7",
+      "keywords": "covid-19",
+      "license": "https://opensource.org/licenses/MIT",
+      "creator": [
+        {
+          "@id": "#Dannon%20Baker"
+        },
+        {
+          "@id": "#Marius%20van%20den%20Beek"
+        },
+        {
+          "@id": "#Dave%20Bouvier"
+        },
+        {
+          "@id": "#John%20Chilton"
+        },
+        {
+          "@id": "#Nate%20Coraor"
+        },
+        {
+          "@id": "#Frederik%20Coppens"
+        },
+        {
+          "@id": "#Bert%20Droesbeke"
+        },
+        {
+          "@id": "#Ignacio%20Eguinoa"
+        },
+        {
+          "@id": "#Simon%20Gladman"
+        },
+        {
+          "@id": "#Bj%C3%B6rn%20Gr%C3%BCning"
+        },
+        {
+          "@id": "#Delphine%20Larivi%C3%A8re"
+        },
+        {
+          "@id": "#Gildas%20Le%20Corguill%C3%A9"
+        },
+        {
+          "@id": "#Andrew%20Lonie"
+        },
+        {
+          "@id": "#Nicholas%20Keener"
+        },
+        {
+          "@id": "#Sergei%20Kosakovsky%20Pond"
+        },
+        {
+          "@id": "#Wolfgang%20Maier"
+        },
+        {
+          "@id": "#Anton%20Nekrutenko"
+        },
+        {
+          "@id": "#James%20Taylor"
+        },
+        {
+          "@id": "#Steven%20Weaver"
+        }
+      ],
+      "producer": {
+        "@id": "https://workflowhub.eu/projects/3"
+      },
+      "dateCreated": {
+        "@value": "2020-04-10T12:52:21Z",
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+      },
+      "dateModified": {
+        "@value": "2020-04-10T12:52:21Z",
+        "@type": "http://www.w3.org/2001/XMLSchema#dateTime"
+      },
+      "sdPublisher": {
+        "@id": "https://workflowhub.eu"
+      },
+      "version": 1,
+      "input": [
+        {
+          "@id": "#genomics___pe_variation-inputs-#main/GenBank file "
+        },
+        {
+          "@id": "#genomics___pe_variation-inputs-#main/Paired Collection (fastqsanger)"
+        }
+      ],
+      "output": [
+
+      ],
+      "dct:conformsTo": "https://bioschemas.org/profiles/ComputationalWorkflow/1.0-RELEASE/"
+    },
+    {
+      "@id": "Genomics-4-PE_Variation.svg",
+      "@type": [
+        "File",
+        "ImageObject",
+        "WorkflowSketch"
+      ],
+      "contentSize": 13428
+    },
+    {
+      "@id": "#cwl",
+      "@type": "ComputerLanguage",
+      "name": "Common Workflow Language",
+      "alternateName": "CWL",
+      "identifier": {
+        "@id": "https://w3id.org/cwl/v1.0/"
+      },
+      "url": {
+        "@id": "https://www.commonwl.org/"
+      }
+    },
+    {
+      "@id": "#Dannon%2520Baker",
+      "@type": "Person",
+      "name": "Dannon Baker"
+    },
+    {
+      "@id": "#Marius%2520van%2520den%2520Beek",
+      "@type": "Person",
+      "name": "Marius van den Beek"
+    },
+    {
+      "@id": "#Dave%2520Bouvier",
+      "@type": "Person",
+      "name": "Dave Bouvier"
+    },
+    {
+      "@id": "#John%2520Chilton",
+      "@type": "Person",
+      "name": "John Chilton"
+    },
+    {
+      "@id": "#Nate%2520Coraor",
+      "@type": "Person",
+      "name": "Nate Coraor"
+    },
+    {
+      "@id": "#Frederik%2520Coppens",
+      "@type": "Person",
+      "name": "Frederik Coppens"
+    },
+    {
+      "@id": "#Bert%2520Droesbeke",
+      "@type": "Person",
+      "name": "Bert Droesbeke"
+    },
+    {
+      "@id": "#Ignacio%2520Eguinoa",
+      "@type": "Person",
+      "name": "Ignacio Eguinoa"
+    },
+    {
+      "@id": "#Simon%2520Gladman",
+      "@type": "Person",
+      "name": "Simon Gladman"
+    },
+    {
+      "@id": "#Bj%25C3%25B6rn%2520Gr%25C3%25BCning",
+      "@type": "Person",
+      "name": "Björn Grüning"
+    },
+    {
+      "@id": "#Delphine%2520Larivi%25C3%25A8re",
+      "@type": "Person",
+      "name": "Delphine Larivière"
+    },
+    {
+      "@id": "#Gildas%2520Le%2520Corguill%25C3%25A9",
+      "@type": "Person",
+      "name": "Gildas Le Corguillé"
+    },
+    {
+      "@id": "#Andrew%2520Lonie",
+      "@type": "Person",
+      "name": "Andrew Lonie"
+    },
+    {
+      "@id": "#Nicholas%2520Keener",
+      "@type": "Person",
+      "name": "Nicholas Keener"
+    },
+    {
+      "@id": "#Sergei%2520Kosakovsky%2520Pond",
+      "@type": "Person",
+      "name": "Sergei Kosakovsky Pond"
+    },
+    {
+      "@id": "#Wolfgang%2520Maier",
+      "@type": "Person",
+      "name": "Wolfgang Maier"
+    },
+    {
+      "@id": "#Anton%2520Nekrutenko",
+      "@type": "Person",
+      "name": "Anton Nekrutenko"
+    },
+    {
+      "@id": "#James%2520Taylor",
+      "@type": "Person",
+      "name": "James Taylor"
+    },
+    {
+      "@id": "#Steven%2520Weaver",
+      "@type": "Person",
+      "name": "Steven Weaver"
+    },
+    {
+      "@id": "https://workflowhub.eu/projects/3",
+      "@type": [
+        "Project",
+        "Organization"
+      ],
+      "name": "GalaxyProject SARS-CoV-2"
+    },
+    {
+      "@id": "https://workflowhub.eu",
+      "@type": "Organization",
+      "name": "WorkflowHub",
+      "url": "https://workflowhub.eu"
+    },
+    {
+      "@id": "#galaxy",
+      "@type": "ComputerLanguage",
+      "name": "Galaxy",
+      "identifier": {
+        "@id": "https://galaxyproject.org/"
+      },
+      "url": {
+        "@id": "https://galaxyproject.org/"
+      }
+    },
+    {
+      "@id": "#genomics___pe_variation-inputs-%23main/GenBank%20file%20",
+      "@type": "FormalParameter",
+      "name": "#main/GenBank file ",
+      "dct:conformsTo": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE/"
+    },
+    {
+      "@id": "#genomics___pe_variation-inputs-%23main/Paired%20Collection%20(fastqsanger)",
+      "@type": "FormalParameter",
+      "name": "#main/Paired Collection (fastqsanger)",
+      "dct:conformsTo": "https://bioschemas.org/profiles/FormalParameter/1.0-RELEASE/"
+    }
+  ]
+}
