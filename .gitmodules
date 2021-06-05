@@ -1,0 +1,3 @@
+[submodule "Galaxy-workflows/galaxyproject/iwc-workflows/sars-cov-2-pe-illumina-artic-variant-calling"]
+	path = Galaxy-workflows/galaxyproject/iwc-workflows/sars-cov-2-pe-illumina-artic-variant-calling
+	url = https://github.com/iwc-workflows/sars-cov-2-pe-illumina-artic-variant-calling.git
