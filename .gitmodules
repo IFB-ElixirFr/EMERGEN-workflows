@@ -1,3 +1,18 @@
 [submodule "Galaxy-workflows/galaxyproject/iwc-workflows/sars-cov-2-pe-illumina-artic-variant-calling"]
 	path = Galaxy-workflows/galaxyproject/iwc-workflows/sars-cov-2-pe-illumina-artic-variant-calling
 	url = https://github.com/iwc-workflows/sars-cov-2-pe-illumina-artic-variant-calling.git
+[submodule "Galaxy-workflows/galaxyproject/iwc-workflows/sars-cov-2-consensus-from-variation"]
+	path = Galaxy-workflows/galaxyproject/iwc-workflows/sars-cov-2-consensus-from-variation
+	url = https://github.com/iwc-workflows/sars-cov-2-consensus-from-variation.git
+[submodule "Galaxy-workflows/galaxyproject/iwc-workflows/sars-cov-2-ont-artic-variant-calling"]
+	path = Galaxy-workflows/galaxyproject/iwc-workflows/sars-cov-2-ont-artic-variant-calling
+	url = https://github.com/iwc-workflows/sars-cov-2-ont-artic-variant-calling.git
+[submodule "Galaxy-workflows/galaxyproject/iwc-workflows/sars-cov-2-variation-reporting"]
+	path = Galaxy-workflows/galaxyproject/iwc-workflows/sars-cov-2-variation-reporting
+	url = https://github.com/iwc-workflows/sars-cov-2-variation-reporting.git
+[submodule "Galaxy-workflows/galaxyproject/iwc-workflows/sars-cov-2-se-illumina-wgs-variant-calling"]
+	path = Galaxy-workflows/galaxyproject/iwc-workflows/sars-cov-2-se-illumina-wgs-variant-calling
+	url = https://github.com/iwc-workflows/sars-cov-2-se-illumina-wgs-variant-calling.git
+[submodule "Galaxy-workflows/galaxyproject/iwc-workflows/sars-cov-2-pe-illumina-wgs-variant-calling"]
+	path = Galaxy-workflows/galaxyproject/iwc-workflows/sars-cov-2-pe-illumina-wgs-variant-calling
+	url = https://github.com/iwc-workflows/sars-cov-2-pe-illumina-wgs-variant-calling.git
