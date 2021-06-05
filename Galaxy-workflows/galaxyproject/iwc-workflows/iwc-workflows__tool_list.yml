@@ -74,6 +74,7 @@ tools:
 - name: ivar_trim
   owner: iuc
   revisions:
+  - cf65217ad61c
   - db536ad45f28
   tool_panel_section_label: COVID-19
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
@@ -122,8 +123,8 @@ tools:
 - name: lofreq_filter
   owner: iuc
   revisions:
-  - 7dfca164d2e3
   - 950d1d49d678
+  - 7dfca164d2e3
   tool_panel_section_label: COVID-19
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: bwa
@@ -156,7 +157,7 @@ tools:
 - name: ivar_removereads
   owner: iuc
   revisions:
-  - ee2beb764a7b
+  - 75c279fa403a
   tool_panel_section_label: COVID-19
   tool_shed_url: https://toolshed.g2.bx.psu.edu/
 - name: vcfvcfintersect
