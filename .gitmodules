@@ -16,3 +16,6 @@
 [submodule "Galaxy-workflows/galaxyproject/iwc-workflows/sars-cov-2-pe-illumina-wgs-variant-calling"]
 	path = Galaxy-workflows/galaxyproject/iwc-workflows/sars-cov-2-pe-illumina-wgs-variant-calling
 	url = https://github.com/iwc-workflows/sars-cov-2-pe-illumina-wgs-variant-calling.git
+[submodule "documentation/SARS-CoV-2-Contextual-Data-Specification"]
+	path = documentation/SARS-CoV-2-Contextual-Data-Specification
+	url = https://github.com/pha4ge/SARS-CoV-2-Contextual-Data-Specification.git
