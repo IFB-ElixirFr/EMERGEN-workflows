@@ -28,14 +28,14 @@
             "name": "Input dataset collection",
             "outputs": [],
             "position": {
-                "bottom": 665.03125,
+                "bottom": 531.03125,
                 "height": 81,
-                "left": -437.15625,
-                "right": -237.15625,
-                "top": 584.03125,
+                "left": -513,
+                "right": -313,
+                "top": 450.03125,
                 "width": 200,
-                "x": -437.15625,
-                "y": 584.03125
+                "x": -513,
+                "y": 450.03125
             },
             "tool_id": null,
             "tool_state": "{\"optional\": false, \"format\": [\"fastqsanger\", \"fastqsanger.gz\"], \"collection_type\": \"list:paired\"}",
@@ -60,14 +60,14 @@
             "name": "Input dataset",
             "outputs": [],
             "position": {
-                "bottom": 863.796875,
+                "bottom": 729.796875,
                 "height": 101,
-                "left": -384.75,
-                "right": -184.75,
-                "top": 762.796875,
+                "left": -460.59375,
+                "right": -260.59375,
+                "top": 628.796875,
                 "width": 200,
-                "x": -384.75,
-                "y": 762.796875
+                "x": -460.59375,
+                "y": 628.796875
             },
             "tool_id": null,
             "tool_state": "{\"optional\": false, \"format\": [\"fasta\", \"fasta.gz\"]}",
@@ -105,14 +105,14 @@
                 }
             ],
             "position": {
-                "bottom": 570.953125,
+                "bottom": 436.953125,
                 "height": 192,
-                "left": -170.6875,
-                "right": 29.3125,
-                "top": 378.953125,
+                "left": -246.53125,
+                "right": -46.53125,
+                "top": 244.953125,
                 "width": 200,
-                "x": -170.6875,
-                "y": 378.953125
+                "x": -246.53125,
+                "y": 244.953125
             },
             "post_job_actions": {
                 "HideDatasetActionreport_json": {
@@ -134,14 +134,14 @@
             "uuid": "e3e15355-92b3-4336-a048-facf7b80a456",
             "workflow_outputs": [
                 {
-                    "label": "fastp_html_report",
-                    "output_name": "report_html",
-                    "uuid": "6e03939d-9365-42cd-a8d0-f181b37fa555"
-                },
-                {
                     "label": "fastp_pe",
                     "output_name": "output_paired_coll",
-                    "uuid": "543ec4be-48e3-4fd7-ac86-4e94be212cd7"
+                    "uuid": "e12cf072-ff7d-44dc-86a4-d5db9c7b7bc2"
+                },
+                {
+                    "label": "fastp_html_report",
+                    "output_name": "report_html",
+                    "uuid": "e5330623-a13b-4e91-a7ed-81318648cc75"
                 }
             ]
         },
@@ -170,14 +170,14 @@
                 }
             ],
             "position": {
-                "bottom": 832.46875,
+                "bottom": 698.46875,
                 "height": 222,
-                "left": 94.84375,
-                "right": 294.84375,
-                "top": 610.46875,
+                "left": 19,
+                "right": 219,
+                "top": 476.46875,
                 "width": 200,
-                "x": 94.84375,
-                "y": 610.46875
+                "x": 19,
+                "y": 476.46875
             },
             "post_job_actions": {},
             "tool_id": "toolshed.g2.bx.psu.edu/repos/devteam/bwa/bwa_mem/0.7.17.1",
@@ -195,7 +195,7 @@
                 {
                     "label": "Map with BWA-MEM on input dataset(s) (mapped reads in BAM format)",
                     "output_name": "bam_output",
-                    "uuid": "c3d1a76a-d39f-49f6-bea7-8c04629c9b7d"
+                    "uuid": "37ee7bd6-fddf-46cf-8ce4-079e5920cba2"
                 }
             ]
         },
@@ -220,14 +220,14 @@
                 }
             ],
             "position": {
-                "bottom": 603.234375,
+                "bottom": 469.234375,
                 "height": 112,
-                "left": 328.3125,
-                "right": 528.3125,
-                "top": 491.234375,
+                "left": 252.46875,
+                "right": 452.46875,
+                "top": 357.234375,
                 "width": 200,
-                "x": 328.3125,
-                "y": 491.234375
+                "x": 252.46875,
+                "y": 357.234375
             },
             "post_job_actions": {
                 "RenameDatasetActionoutputsam": {
@@ -253,7 +253,7 @@
                 {
                     "label": "filtered_mapped_reads",
                     "output_name": "outputsam",
-                    "uuid": "a814742e-5f74-4685-aae6-c0f4f37af200"
+                    "uuid": "711e76f8-acf5-49f2-a74d-f3eb87a87ec5"
                 }
             ]
         },
@@ -278,14 +278,14 @@
                 }
             ],
             "position": {
-                "bottom": 533.015625,
+                "bottom": 399.015625,
                 "height": 112,
-                "left": 603.515625,
-                "right": 803.515625,
-                "top": 421.015625,
+                "left": 527.671875,
+                "right": 727.671875,
+                "top": 287.015625,
                 "width": 200,
-                "x": 603.515625,
-                "y": 421.015625
+                "x": 527.671875,
+                "y": 287.015625
             },
             "post_job_actions": {},
             "tool_id": "toolshed.g2.bx.psu.edu/repos/devteam/samtools_stats/samtools_stats/2.0.2+galaxy2",
@@ -303,7 +303,7 @@
                 {
                     "label": "mapped_reads_stats",
                     "output_name": "output",
-                    "uuid": "0f3ea757-0f40-419c-9d0f-6e9d56057d06"
+                    "uuid": "ba8ba259-2114-47d7-8555-16b74d482626"
                 }
             ]
         },
@@ -332,14 +332,14 @@
                 }
             ],
             "position": {
-                "bottom": 787.421875,
+                "bottom": 653.421875,
                 "height": 182,
-                "left": 547.890625,
-                "right": 747.890625,
-                "top": 605.421875,
+                "left": 472.046875,
+                "right": 672.046875,
+                "top": 471.421875,
                 "width": 200,
-                "x": 547.890625,
-                "y": 605.421875
+                "x": 472.046875,
+                "y": 471.421875
             },
             "post_job_actions": {},
             "tool_id": "toolshed.g2.bx.psu.edu/repos/devteam/picard/picard_MarkDuplicates/2.18.2.2",
@@ -355,14 +355,14 @@
             "uuid": "dfeec15a-ab76-44e8-8e41-ce4f53289f01",
             "workflow_outputs": [
                 {
-                    "label": "markduplicates_reads",
-                    "output_name": "outFile",
-                    "uuid": "e78fc21d-3350-4a14-a9b0-09e7dd3cdcf0"
-                },
-                {
                     "label": "markduplicates_stats",
                     "output_name": "metrics_file",
-                    "uuid": "3599e466-a934-48ba-aabf-a0b08eb76b4f"
+                    "uuid": "90c70f5f-8fee-4648-884d-ebdbf05779cb"
+                },
+                {
+                    "label": "markduplicates_reads",
+                    "output_name": "outFile",
+                    "uuid": "eb88f5cb-a4d8-41bd-a9ca-617d2edaf041"
                 }
             ]
         },
@@ -391,14 +391,14 @@
                 }
             ],
             "position": {
-                "bottom": 977.140625,
+                "bottom": 843.140625,
                 "height": 162,
-                "left": 685.515625,
-                "right": 885.515625,
-                "top": 815.140625,
+                "left": 609.671875,
+                "right": 809.671875,
+                "top": 681.140625,
                 "width": 200,
-                "x": 685.515625,
-                "y": 815.140625
+                "x": 609.671875,
+                "y": 681.140625
             },
             "post_job_actions": {},
             "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/lofreq_viterbi/lofreq_viterbi/2.1.5+galaxy0",
@@ -416,7 +416,7 @@
                 {
                     "label": "realigned_deduplicated_filtered_mapped_reads",
                     "output_name": "realigned",
-                    "uuid": "cba1e8bc-5d09-47b4-bdc1-a8268c2039b8"
+                    "uuid": "ad859e0d-38ec-4e17-aefe-42ca2cbbfc20"
                 }
             ]
         },
@@ -453,14 +453,14 @@
                 }
             ],
             "position": {
-                "bottom": 565.46875,
+                "bottom": 431.46875,
                 "height": 282,
-                "left": 1041.015625,
-                "right": 1241.015625,
-                "top": 283.46875,
+                "left": 965.171875,
+                "right": 1165.171875,
+                "top": 149.46875,
                 "width": 200,
-                "x": 1041.015625,
-                "y": 283.46875
+                "x": 965.171875,
+                "y": 149.46875
             },
             "post_job_actions": {
                 "HideDatasetActionstats": {
@@ -483,7 +483,7 @@
                 "owner": "iuc",
                 "tool_shed": "toolshed.g2.bx.psu.edu"
             },
-            "tool_state": "{\"comment\": \"\", \"export\": \"false\", \"flat\": \"false\", \"results\": [{\"__index__\": 0, \"software_cond\": {\"software\": \"fastp\", \"__current_case__\": 7, \"input\": {\"__class__\": \"RuntimeValue\"}}}, {\"__index__\": 1, \"software_cond\": {\"software\": \"samtools\", \"__current_case__\": 24, \"output\": [{\"__index__\": 0, \"type\": {\"type\": \"stats\", \"__current_case__\": 0, \"input\": {\"__class__\": \"RuntimeValue\"}}}]}}, {\"__index__\": 2, \"software_cond\": {\"software\": \"picard\", \"__current_case__\": 17, \"output\": [{\"__index__\": 0, \"type\": \"markdups\", \"input\": {\"__class__\": \"RuntimeValue\"}}]}}], \"saveLog\": \"false\", \"title\": \"\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
+            "tool_state": "{\"comment\": \"\", \"export\": \"false\", \"flat\": \"false\", \"results\": [{\"__index__\": 0, \"software_cond\": {\"software\": \"fastp\", \"__current_case__\": 7, \"input\": {\"__class__\": \"ConnectedValue\"}}}, {\"__index__\": 1, \"software_cond\": {\"software\": \"samtools\", \"__current_case__\": 24, \"output\": [{\"__index__\": 0, \"type\": {\"type\": \"stats\", \"__current_case__\": 0, \"input\": {\"__class__\": \"ConnectedValue\"}}}]}}, {\"__index__\": 2, \"software_cond\": {\"software\": \"picard\", \"__current_case__\": 17, \"output\": [{\"__index__\": 0, \"type\": \"markdups\", \"input\": {\"__class__\": \"ConnectedValue\"}}]}}], \"saveLog\": \"false\", \"title\": \"\", \"__page__\": null, \"__rerun_remap_job_id__\": null}",
             "tool_version": "1.9+galaxy1",
             "type": "tool",
             "uuid": "f87cae1e-1c65-4e6b-b5ab-6e077ae3cfb2",
@@ -491,7 +491,7 @@
                 {
                     "label": "preprocessing_and_mapping_reports",
                     "output_name": "html_report",
-                    "uuid": "df3dbad9-d708-43d0-af04-f9576ef004f7"
+                    "uuid": "4ffd2a85-5ed3-4365-a425-301ff8cb4413"
                 }
             ]
         },
@@ -520,14 +520,14 @@
                 }
             ],
             "position": {
-                "bottom": 1179.1875,
+                "bottom": 1045.1875,
                 "height": 182,
-                "left": 801.578125,
-                "right": 1001.578125,
-                "top": 997.1875,
+                "left": 725.734375,
+                "right": 925.734375,
+                "top": 863.1875,
                 "width": 200,
-                "x": 801.578125,
-                "y": 997.1875
+                "x": 725.734375,
+                "y": 863.1875
             },
             "post_job_actions": {
                 "RenameDatasetActionoutput": {
@@ -553,7 +553,7 @@
                 {
                     "label": "realigned_deduplicated_filtered_mapped_reads_with_indel_quals",
                     "output_name": "output",
-                    "uuid": "520bc431-48b2-4ca2-ae39-3e6910a7ef26"
+                    "uuid": "46d8cf28-7c9c-4109-a0c3-14f90db52e47"
                 }
             ]
         },
@@ -582,14 +582,14 @@
                 }
             ],
             "position": {
-                "bottom": 1314.671875,
+                "bottom": 1180.671875,
                 "height": 122,
-                "left": 930.640625,
-                "right": 1130.640625,
-                "top": 1192.671875,
+                "left": 854.796875,
+                "right": 1054.796875,
+                "top": 1058.671875,
                 "width": 200,
-                "x": 930.640625,
-                "y": 1192.671875
+                "x": 854.796875,
+                "y": 1058.671875
             },
             "post_job_actions": {},
             "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/lofreq_call/lofreq_call/2.1.5+galaxy0",
@@ -607,7 +607,7 @@
                 {
                     "label": "called_variants",
                     "output_name": "variants",
-                    "uuid": "b87f7c10-f47e-4204-b0c8-26b1e7374604"
+                    "uuid": "e1da347a-271a-4e22-bfc3-9dd9ac7bf929"
                 }
             ]
         },
@@ -632,14 +632,14 @@
                 }
             ],
             "position": {
-                "bottom": 1129.296875,
+                "bottom": 995.296875,
                 "height": 112,
-                "left": 1128.15625,
-                "right": 1328.15625,
-                "top": 1017.296875,
+                "left": 1052.3125,
+                "right": 1252.3125,
+                "top": 883.296875,
                 "width": 200,
-                "x": 1128.15625,
-                "y": 1017.296875
+                "x": 1052.3125,
+                "y": 883.296875
             },
             "post_job_actions": {},
             "tool_id": "toolshed.g2.bx.psu.edu/repos/iuc/lofreq_filter/lofreq_filter/2.1.5+galaxy0",
@@ -657,7 +657,7 @@
                 {
                     "label": "soft_filtered_variants",
                     "output_name": "outvcf",
-                    "uuid": "ee19362b-b134-49dd-a13b-183746d1c18f"
+                    "uuid": "7a8648d0-c844-43a5-85f8-27220011725a"
                 }
             ]
         },
@@ -695,14 +695,14 @@
                 }
             ],
             "position": {
-                "bottom": 885.359375,
+                "bottom": 751.359375,
                 "height": 302,
-                "left": 1311.203125,
-                "right": 1511.203125,
-                "top": 583.359375,
+                "left": 1235.359375,
+                "right": 1435.359375,
+                "top": 449.359375,
                 "width": 200,
-                "x": 1311.203125,
-                "y": 583.359375
+                "x": 1235.359375,
+                "y": 449.359375
             },
             "post_job_actions": {
                 "RenameDatasetActionsnpeff_output": {
@@ -726,14 +726,14 @@
             "uuid": "6808f1c5-55da-4e39-a453-e215650d22e7",
             "workflow_outputs": [
                 {
-                    "label": "annotated_variants_stats",
-                    "output_name": "statsFile",
-                    "uuid": "11d9ab4f-729d-430b-b205-b91e6ffb7391"
-                },
-                {
                     "label": "annotated_variants",
                     "output_name": "snpeff_output",
-                    "uuid": "c43a6ba5-2a20-42ab-a666-fdd359037775"
+                    "uuid": "218ed74c-5d87-472a-88f4-6b06559e7885"
+                },
+                {
+                    "label": "annotated_variants_stats",
+                    "output_name": "statsFile",
+                    "uuid": "1986e97d-92a8-4812-99e7-42818115e675"
                 }
             ]
         }
@@ -744,6 +744,6 @@
         "iwc",
         "emergen_validated"
     ],
-    "uuid": "390e8b48-7368-41e8-b767-1a11d432984a",
-    "version": 3
+    "uuid": "6695eb16-30a5-42ea-8591-56f2630cf8bf",
+    "version": 4
 }
